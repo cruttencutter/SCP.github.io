@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #bb3e58;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e47d9a;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e47d9a;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+
+.center-fit {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+#About {
+  padding: 5%;
+  background-color: #e47d9a;
+}
+
+#aboutP {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+p {
+  font-size: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#Tips {
+  padding: 5%;
+  background-color: #c4d38d;
+}
+
+#star {
+  height: 3%;
+  width: 3%;
+}
+
+#Volunteering{
+  background-color: #a2a9b9;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.volunt {
+  width: 250px;
+  height: 250px;
+}
+
+.STL {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+
+#Engaging {
+  background-color: #c99f5a;
+}
+
+#left {
+  display: inline-block;
+  font-size: 25px;
+}
+
+#right {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  font-size: 25px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#Articles {
+  background-color: #722c4d;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgs {
+  width: 250px;
+  height: 250px;
+}
+
+.row3 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  background-color: #3b2438;
+  padding: 3%;
+  display: block;
+  font-size: 25px;
+}
+
+#arrow {
+  width: 3%;
+  height: 3%;
+}
+
+#backToTop {
+  text-decoration: none;
+}
+
+.column4 {
+  float: left;
+}
+
+.column5 {
+  float: right;
+  text-align: right;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row4 {
+  font-size: 20px;
+}
+
+.bigger {
+  font-size: 20px;
+}
